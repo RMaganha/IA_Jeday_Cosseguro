@@ -1,0 +1,236 @@
+{
+  "dados_gerais_apolice": {
+    "metadata": {
+      "arquivo": "APOLICE 4166.PDF",
+      "timestamp": "2025-12-15 10:13:10.319022"
+    },
+    "segurado": "TRBR INDUSTRIA E COMERCIO LTDA",
+    "cnpj": "004.530.816/0001-88",
+    "inicio_vigencia": "01/10/2025",
+    "fim_vigencia": "01/10/2026",
+    "numero_apolice_lider": "00004166",
+    "moeda": "REAL",
+    "valor_limite_maximo_garantia": "R$ 242.018.197,28",
+    "premio_emitido_ou_liquido": "R$ 419.264,67",
+    "participacao_mitsui_sumitomo": "35",
+    "lmi_unico": "Sim",
+    "tem_cobertura_cbi": "Sim",
+    "pais": "Brasil",
+    "valor_cobertura_lucros_cessantes": "R$ 30.718.750,00",
+    "limite_cobertura_vendaval": "R$ 1.200.000,00",
+    "franquia_vendaval": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+    "limite_cobertura_alagamento": "Não consta",
+    "franquia_alagamento": "Não consta",
+    "limite_cobertura_terremoto": "Não consta",
+    "franquia_terremoto": "Não consta",
+    "cosseguro_completo": [
+      {
+        "nome_raw": "SOMPO SEGUROS S.A",
+        "percentual": "15",
+        "lider": false
+      },
+      {
+        "nome_raw": "TOKIO MARINE SEGURADORA S/A",
+        "percentual": "50",
+        "lider": true
+      },
+      {
+        "nome_raw": "MITSUI SUMITOMO SEGUROS S.A.",
+        "percentual": "35",
+        "lider": false
+      }
+    ]
+  },
+  "locais_risco": [
+    {
+      "nro_local_risco": "1",
+      "endereco": "AV MARGINAL, 1515 - JD RESIDENCIAL MARIANA",
+      "cidade": "SANTA BARBARA DOESTE",
+      "estado": "SP",
+      "cep": "13457-016",
+      "atividade_principal_risco": "PLÁSTICO, FÁBRICA (INCLUSIVE DE ARTIGOS), SEM FABRICAÇÃO OU EMPREGO DE CELULÓIDE",
+      "valor_risco_predio": "R$ 58.189.967,30",
+      "valor_risco_mmu": "R$ 115.794.687,75",
+      "valor_risco_mmp": "R$ 34.192.551,12"
+    }
+  ],
+  "coberturas_completas": [
+    {
+      "nome_raw": "Incêndio, Raio, Explosão, Implosão e Fumaça",
+      "lmi": "211.199.447,28",
+      "franquia_raw": "15% DOS PREJUÍZOS, COM MÍNIMO DE R$ 50.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Danos Elétricos",
+      "lmi": "640.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Despesas com Contenção de Sinistros",
+      "lmi": "100.000,00",
+      "franquia_raw": "20% DAS DESPESAS INCORRIDAS 20% das Despesas Incorridas",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Equipamentos Eletrônicos SEM ROUBO",
+      "lmi": "100.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 1.000,00POR EQUIPAMENTO Por equipamento",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Equipamentos Estacionários",
+      "lmi": "500.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 1.500,00POR EQUIPAMENTOS Por equipamentos",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Equipamentos móveis (Operados no Local do Risco)",
+      "lmi": "100.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 1.000,00POR EQUIPAMENTO Por equipamento",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Lucros Cessantes (Lucro Líquido + Despesas Fixas), em Decorrência de Incêndio, Raio, Explosão, Implosão e Fumaça (Período Indenitário = 3 Meses)",
+      "lmi": "30.718.750,00",
+      "franquia_raw": "OS PRIMEIROS 10 DIAS",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Movimentação Interna",
+      "lmi": "150.000,00",
+      "franquia_raw": "15% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Objetos Portáteis (Âmbito Geográfico: Território Brasileiro)",
+      "lmi": "50.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 500,00POR EQUIPAMENTO Por equipamento",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Quebra de Vidros, Espelhos e Mármores",
+      "lmi": "10.000,00",
+      "franquia_raw": "R$ 500,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Roubo e Furto Mediante Arrombamento",
+      "lmi": "192.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Tumultos, Greves, Lockout e Atos Dolosos",
+      "lmi": "100.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 1.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Vazamento de Tanques e Tubulações",
+      "lmi": "300.000,00",
+      "franquia_raw": "15% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+      "premio": "390.449,50"
+    },
+    {
+      "nome_raw": "Vendaval, Furacão, Ciclone, Tornado, Granizo, Impacto de Veículos e Queda de Aeronaves",
+      "lmi": "1.200.000,00",
+      "franquia_raw": "10% DOS PREJUÍZOS, COM MÍNIMO DE R$ 5.000,00",
+      "premio": "390.449,50"
+    }
+  ],
+  "especificacao_cosseguro_cedido": {
+    "dados_gerais": {
+      "codigo_lider": "6190",
+      "seguradora_lider": "TOKIO MARINE SEGURADORA S.A.",
+      "tomador": "TRBR INDUSTRIA E COMERCIO LTDA",
+      "cnpj_tomador": "004.530.816/0001-88",
+      "corretor": "TOYOTA TSUSHO CORR SEG LTDA",
+      "codigo_susep_corretor": "006602",
+      "ramo_seguro": "01.96",
+      "tipo_documento": "Cosseguro",
+      "apolice": "01.96 00004166",
+      "doc_complementar": "",
+      "endosso_cancelamento": "0",
+      "num_ordem_doc_cancelado": "",
+      "codigo_operacao": "35330",
+      "percentual_sobre_premio_tarifario": "35",
+      "percentual_comissao": "20,00",
+      "data_emissao": "30/10/2025",
+      "vigencia_inicio": "01/10/2025",
+      "vigencia_fim": "01/10/2026",
+      "sorteio": "NÃO",
+      "qtd_prestacao": "4",
+      "importancia_segurada": "R$ 242.018.197,28",
+      "moeda": "REAL",
+      "taxa_moeda": "0",
+      "data_base": "",
+      "percentual_desconto": "0,00"
+    },
+    "seguradoras_participantes": [
+      {
+        "codigo": "6190",
+        "nome": "TOKIO MARINE SEGURADORA S.A.",
+        "numero_ordem": "",
+        "percentual_participacao": "35"
+      },
+      {
+        "codigo": "006602",
+        "nome": "MITSU SUMITOMO SEGUROS S.A.",
+        "numero_ordem": "35330",
+        "percentual_participacao": ""
+      }
+    ],
+    "outros_ramos": [
+      {
+        "ramo": "Ramo Principal",
+        "codigo": "01.96",
+        "is": "R$ 84.706.369,05",
+        "percentual_sobre_premio": "35",
+        "percentual_comissao": "20,00"
+      }
+    ],
+    "parcelas": [
+      {
+        "num_parc": "1",
+        "premio_tarifario": "R$ 34.164,34",
+        "desconto": "R$ 0,00",
+        "ad_fracionamento": "R$ 0,00",
+        "comissao_cosseguro": "R$ 6.832,87",
+        "total_liquido": "R$ 27.331,47"
+      },
+      {
+        "num_parc": "2",
+        "premio_tarifario": "R$ 34.164,33",
+        "desconto": "R$ 0,00",
+        "ad_fracionamento": "R$ 0,00",
+        "comissao_cosseguro": "R$ 6.832,86",
+        "total_liquido": "R$ 27.331,47"
+      },
+      {
+        "num_parc": "3",
+        "premio_tarifario": "R$ 34.164,33",
+        "desconto": "R$ 0,00",
+        "ad_fracionamento": "R$ 0,00",
+        "comissao_cosseguro": "R$ 6.832,86",
+        "total_liquido": "R$ 27.331,47"
+      },
+      {
+        "num_parc": "4",
+        "premio_tarifario": "R$ 34.164,33",
+        "desconto": "R$ 0,00",
+        "ad_fracionamento": "R$ 0,00",
+        "comissao_cosseguro": "R$ 6.832,86",
+        "total_liquido": "R$ 27.331,47"
+      }
+    ],
+    "totais_parcelas": {
+      "total_premio_tarifario": "R$ 136.657,33",
+      "total_desconto": "R$ 0,00",
+      "total_ad_fracionamento": "R$ 0,00",
+      "total_comissao_cosseguro": "R$ 27.331,45",
+      "total_liquido": "R$ 109.325,88"
+    }
+  }
+}

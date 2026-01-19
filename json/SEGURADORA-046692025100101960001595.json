@@ -1,0 +1,139 @@
+{
+  "dados_gerais_apolice": {
+    "metadata": {
+      "arquivo": "FRONT_ END 1 _ APL 1009600001595 _ EQUATORIAL ENERGIA S.A_.PDF",
+      "timestamp": "2025-12-29 14:26:14.027027"
+    },
+    "segurado": "EQUATORIAL ENERGIA SA",
+    "cnpj": "03.220.438/0001-73",
+    "inicio_vigencia": "30/04/2025",
+    "fim_vigencia": "30/04/2026",
+    "numero_apolice_lider": "046692025100101960001595",
+    "moeda": "Real",
+    "valor_limite_maximo_garantia": "Não consta",
+    "premio_emitido_ou_liquido": "R$ 857.132,37",
+    "participacao_mitsui_sumitomo": "Não consta",
+    "lmi_unico": "Não consta",
+    "tem_cobertura_cbi": "Não consta",
+    "pais": "Brasil",
+    "valor_cobertura_lucros_cessantes": "Não consta",
+    "limite_cobertura_vendaval": "Não consta",
+    "franquia_vendaval": "Não consta",
+    "limite_cobertura_alagamento": "Não consta",
+    "franquia_alagamento": "Não consta",
+    "limite_cobertura_terremoto": "Não consta",
+    "franquia_terremoto": "Não consta",
+    "cosseguro_completo": []
+  },
+  "locais_risco": [
+    {
+      "nro_local_risco": "Nº",
+      "endereco": "Alameda A, 100 LOTEAMENTO QUITANDIN",
+      "cidade": "Sao Luís",
+      "estado": "UF",
+      "cep": "65070-636",
+      "atividade_principal_risco": "RISCOS OPERACIONAIS",
+      "valor_risco_predio": "Não consta",
+      "valor_risco_mmu": "Não consta",
+      "valor_risco_mmp": "Não consta"
+    }
+  ],
+  "coberturas_completas": [],
+  "especificacao_cosseguro_cedido": {
+    "dados_gerais": {
+      "codigo_lider": "4669",
+      "seguradora_lider": "Fairfax Brasil Seguros Corporativos S/A",
+      "tomador": "EQUATORIAL ENERGIA SA",
+      "cnpj_tomador": "03.220.438/0001-73",
+      "corretor": "Inter Corretora de Seguros Ltda",
+      "codigo_susep_corretor": "202021688",
+      "ramo_seguro": "RISCOS OPERACIONAIS",
+      "tipo_documento": "Apólice",
+      "apolice": "046692025100101960001595",
+      "doc_complementar": "0000001",
+      "endosso_cancelamento": "N",
+      "num_ordem_doc_cancelado": "",
+      "codigo_operacao": "96",
+      "percentual_sobre_premio_tarifario": "100,00",
+      "percentual_comissao": "5,00",
+      "data_emissao": "25/07/2025",
+      "vigencia_inicio": "30/04/2025",
+      "vigencia_fim": "30/04/2026",
+      "sorteio": "N",
+      "qtd_prestacao": "1",
+      "importancia_segurada": "R$ 105.000.000,00",
+      "moeda": "R$",
+      "taxa_moeda": "1,00000000",
+      "data_base": "",
+      "percentual_desconto": "0,00"
+    },
+    "seguradoras_participantes": [
+      {
+        "codigo": "4669",
+        "nome": "Fairfax Brasil Seguros Corporativos S/A",
+        "numero_ordem": "",
+        "percentual_participacao": ""
+      },
+      {
+        "codigo": "6602",
+        "nome": "MITSUI SUMITOMO SEGUROS SA",
+        "numero_ordem": "1000000617",
+        "percentual_participacao": ""
+      }
+    ],
+    "outros_ramos": [
+      {
+        "ramo": "Ramo 2",
+        "codigo": "",
+        "is": "Não consta",
+        "percentual_sobre_premio": "",
+        "percentual_comissao": ""
+      },
+      {
+        "ramo": "Ramo 3",
+        "codigo": "",
+        "is": "Não consta",
+        "percentual_sobre_premio": "",
+        "percentual_comissao": ""
+      },
+      {
+        "ramo": "Ramo 4",
+        "codigo": "",
+        "is": "Não consta",
+        "percentual_sobre_premio": "",
+        "percentual_comissao": ""
+      },
+      {
+        "ramo": "Ramo 5",
+        "codigo": "",
+        "is": "Não consta",
+        "percentual_sobre_premio": "",
+        "percentual_comissao": ""
+      },
+      {
+        "ramo": "Ramo 6",
+        "codigo": "",
+        "is": "Não consta",
+        "percentual_sobre_premio": "",
+        "percentual_comissao": ""
+      }
+    ],
+    "parcelas": [
+      {
+        "num_parc": "1",
+        "premio_tarifario": "R$ 257.139,71",
+        "desconto": "R$ 0,00",
+        "ad_fracionamento": "R$ 0,00",
+        "comissao_cosseguro": "R$ 12.856,99",
+        "total_liquido": "R$ 244.282,72"
+      }
+    ],
+    "totais_parcelas": {
+      "total_premio_tarifario": "R$ 257.139,71",
+      "total_desconto": "R$ 0,00",
+      "total_ad_fracionamento": "R$ 0,00",
+      "total_comissao_cosseguro": "R$ 12.856,99",
+      "total_liquido": "R$ 244.282,72"
+    }
+  }
+}
