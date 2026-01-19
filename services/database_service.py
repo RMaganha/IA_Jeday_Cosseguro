@@ -6,7 +6,7 @@ import base64
 import logging
 from io import BytesIO
 from typing import Tuple, Optional
-from config.settings import db_config
+from config.settings import db_config, app_config
 
 logger = logging.getLogger(__name__)
 
@@ -102,6 +102,22 @@ class DatabaseService:
                     continue
                 
                 try:
+                    if isinstance(b64_data, bytes):
+                        b64_str = b64_data.decode("ascii", errors="ignore")
+                        b64_len = len(b64_data)
+                        padding = b64_data[-2:].count(b"=") if b64_data else 0
+                    else:
+                        b64_str = str(b64_data)
+                        b64_len = len(b64_str)
+                        padding = b64_str[-2:].count("=") if b64_str else 0
+                    estimated_size = (b64_len * 3) // 4 - padding
+                    max_size = app_config.MAX_FILE_SIZE_MB * 1024 * 1024
+                    if estimated_size > max_size:
+                        logger.error(
+                            f"Anexo {nome} excede tamanho máximo estimado "
+                            f"({estimated_size} bytes > {max_size} bytes)"
+                        )
+                        continue
                     pdf_bytes = base64.b64decode(b64_data)
                 except Exception as e:
                     logger.error(f"Falha ao decodificar base64 de {nome}: {e}")
