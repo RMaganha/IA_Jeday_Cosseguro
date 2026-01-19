@@ -6,7 +6,7 @@ import re
 import logging
 from typing import Dict, Any
 import google.generativeai as genai
-from config.settings import gemini_config
+from config.settings import gemini_config, app_config
 from utils.validators import validar_arquivo_pdf, ValidationError
 
 logger = logging.getLogger(__name__)
@@ -57,7 +57,7 @@ class GeminiService:
             file_bytes = file_stream.read()
             
             # Valida o arquivo
-            validar_arquivo_pdf(file_bytes)
+            validar_arquivo_pdf(file_bytes, max_size_mb=app_config.MAX_FILE_SIZE_MB)
             
             # Cria o objeto "Part" para envio nativo
             document_part = {

@@ -2,6 +2,7 @@
 Serviço de processamento de PDFs de apólices
 """
 import logging
+from io import BytesIO
 from typing import Dict, Any, List, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from services.gemini_service import GeminiService
@@ -37,11 +38,13 @@ class PDFProcessor:
         logger.info("Iniciando processamento paralelo da apólice...")
         
         # Processamento paralelo dos diferentes aspectos da apólice
+        arquivo_apolice.seek(0)
+        apolice_bytes = arquivo_apolice.read()
         tarefas = {
-            'mestre': (arquivo_apolice, PROMPT_MESTRE_APOLICE),
-            'locais': (arquivo_apolice, PROMPT_LOCAIS_V4_1),
-            'coberturas': (arquivo_apolice, PROMPT_COBERTURAS_V3_GENERICO),
-            'clausulas': (arquivo_apolice, PROMPT_LMI_UNICO_CBI)
+            'mestre': (BytesIO(apolice_bytes), PROMPT_MESTRE_APOLICE),
+            'locais': (BytesIO(apolice_bytes), PROMPT_LOCAIS_V4_1),
+            'coberturas': (BytesIO(apolice_bytes), PROMPT_COBERTURAS_V3_GENERICO),
+            'clausulas': (BytesIO(apolice_bytes), PROMPT_LMI_UNICO_CBI)
         }
         
         resultados = self._processar_paralelo(tarefas)
@@ -83,7 +86,7 @@ class PDFProcessor:
             # Submete todas as tarefas
             futures = {
                 executor.submit(
-                    self.gemini_service.processar_documento,
+                    GeminiService().processar_documento,
                     arquivo,
                     prompt
                 ): nome
